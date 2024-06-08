@@ -1,0 +1,97 @@
+/* Login / Register Page CSS */
+
+/* Background */
+
+.FormOuterContainer {
+  width: 100%;
+  height: 100vh;
+ background-color: black;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Inner Container */
+
+.FormContainer {
+  border-radius: 10px;
+  width: 30%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(135, 92, 31, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+/* Form and its components */
+
+.form {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formlabel {
+  display: block;
+  color: black;
+  margin-bottom: 8px;
+  font-weight: 600;
+  width: 60%;
+}
+.forminput {
+  display: block;
+  width: 55%;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 7px 10px;
+  margin-bottom: 22px;
+}
+.forminput:focus {
+  outline: none;
+  background: rgba(0, 0, 0, 0.05);
+}
+::placeholder {
+  color: black;
+  opacity: 0.6;
+}
+.formbtn {
+  background-color: black;
+  border: none;
+  border: 1px solid black;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin-bottom: 10px;
+}
+.formbtn:hover {
+  color: black;
+  background-color: transparent;
+}
+.formHeading {
+  margin-bottom: 40px;
+  color: black;
+}
+.formpara {
+  color: black;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.formspan {
+  color: black;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}

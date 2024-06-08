@@ -1,0 +1,24 @@
+.ReviewContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+.userAndTime {
+  margin-left: 20px;
+  font-size: 11px;
+}
+.reviewContent {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,109 @@
+/* Navbar CSS */
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navleft,
+.navright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+.navcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+/* Navbar Left Section */
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+
+/* Navbar Center Section */
+
+.searchOutline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.searchOption {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 7px 10px;
+}
+.searchInput {
+  background-color: transparent;
+  margin: 0;
+  padding: auto;
+  border-radius: 0;
+  color: black;
+  font-size: 16px;
+  width: 150px;
+  padding: 7px 20px;
+  height: 100%;
+  border: none;
+  border-left: 1px solid black;
+}
+.searchInput:focus {
+  outline: none;
+}
+.typeOption {
+  margin: 0;
+  border-radius: 0;
+  color: black;
+  font-size: 16px;
+  width: 190px;
+  border-left: 1px solid black;
+}
+.typeOptionSelect {
+  width: 185px;
+}
+.searchBtn {
+  background-color: black;
+  border: none;
+  border-left: 1px solid black;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  padding: 7px 20px;
+  margin: 0;
+}
+.searchBtn:hover {
+  color: black;
+  background-color: transparent;
+}
+
+/* Navbar Right Section */
+
+.logoutbtn {
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin: 0;
+}
+.logoutbtn:hover {
+  color: black;
+  background-color: transparent;
+}

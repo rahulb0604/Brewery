@@ -1,0 +1,76 @@
+.DetailsOuterContainer {
+  width: 100%;
+  min-height: 100vh;
+ background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.DetailsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+.InDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.DetailContainerLeft {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
+.DetailContainerRight {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
+.ReviewBtnContainer {
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+}
+.AddReviewBtn {
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin: 0;
+}
+.AddReviewBtn:hover {
+  color: black;
+  background-color: transparent;
+}
+.reviewInput {
+  background-color: transparent;
+  margin: 0;
+  padding: auto;
+  border-radius: 0;
+  color: black;
+  font-size: 16px;
+  width: 250px;
+  padding: 7px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.reviewInput:focus {
+  outline: none;
+}
+.noReviewText {
+  text-align: center;
+  font-weight: 600;
+}
